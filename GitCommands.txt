@@ -1,0 +1,14 @@
+# 1. Check status
+git status
+
+# 2. Stage your files (make sure .env is not listed)
+git add <NameOfFile> <SpaceThenNameOf2ndFile>
+Example: git add requirements.txt stock_strategy_debriefer.py .env.example 
+
+# 3. Commit
+git commit -m "Message"
+Example: git commit -m "feat: implement multi-perspective market debriefer agent with dual-tool auditing"
+
+# 4. Push to master/main
+git push origin main
+Master branch doesn't work. Example: git push origin master

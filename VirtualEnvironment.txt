@@ -1,0 +1,11 @@
+# 1. Create your virtual environment
+    python -m venv .venv
+
+# 2. Activate it:
+# On macOS / Linux:
+    .venv/bin/activate
+# On Windows (PowerShell):
+   .venv\Scripts\Activate.ps1
+
+# 3. Ensure pip is up-to-date
+    python -m pip install --upgrade pip
